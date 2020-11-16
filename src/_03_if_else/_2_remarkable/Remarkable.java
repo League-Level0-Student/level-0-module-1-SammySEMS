@@ -18,8 +18,11 @@ String name = JOptionPane.showInputDialog("Who are you?");
 if (name.equalsIgnoreCase("Hello Kitty")) {
 	
 JOptionPane.showMessageDialog(null, HelloKitty);}
-else if (name.equalIgnoreCase("Superman")) {
+else if (name.equalsIgnoreCase("Superman")) {
+
+JOptionPane.showMessageDialog(null, superman);}
+else {
+	JOptionPane.showMessageDialog(null, other);}
+}
 }
 
-}
-}
